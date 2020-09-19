@@ -1,7 +1,5 @@
 import React from "react";
-// import TimerWrapper from "./timer/timer";
 import Timer from "./timer/timer";
-// import Button from "./button";
 class App extends React.Component {
   render() {
     return (

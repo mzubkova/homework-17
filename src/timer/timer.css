@@ -1,12 +1,12 @@
 .title {
   font-family: "Helvetica Neue";
-  font-size: 2rem;
+  font-size: 1.5rem;
   font-weight: 500;
   color: #170621;
 }
 
 .timer-inner {
-  margin: 50px auto;
+  margin: 20px auto;
   align-items: center;
   text-align: center;
   justify-content: center;
@@ -51,5 +51,4 @@
   font-weight: 400;
   text-align: left;
   margin: 10px;
-
 }
