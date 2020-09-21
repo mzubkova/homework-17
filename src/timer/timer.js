@@ -11,7 +11,7 @@ const Timer = ({ initialState = false, initialTime = 0, step = "1000" }) => {
 
   useEffect(() => {
     let interval = null;
-    if (isActive) {
+    if (isActive && time > 0) {
       interval = setInterval(() => {
         setTime((time) => time - 1);
       }, step);
